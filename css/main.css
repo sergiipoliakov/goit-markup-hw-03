@@ -46,11 +46,14 @@
   }
   .container {
     width: 1200px;
-    outline: 2px solid tomato;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+   }
+
+   .page-header {
+     border: 2px solid var(--secondary-background-color);
    }
 
   /* logotipe */
@@ -86,6 +89,7 @@
   
   /* Site nav */
 
+
   .main-nav {
     display: flex;
     align-items: center;
@@ -113,14 +117,19 @@
     letter-spacing: 0.02em;
     text-decoration: none;
   } 
+  
   .site-nav .link:hover,
   .site-nav .link:focus {
     color: var(--accent-color);
   }
-  
-  .site-nav .link .current {
-    color: var(--title-text-color);
+  .site-nav .active  {
+    color: var(--accent-color); 
   }
+  
+  /* .site-nav .link .current {
+    color: var(--title-text-color);
+  } */
+  
 
    /* .auth-nav */
 
@@ -528,9 +537,13 @@
       }
 
       /* Portfolio Cards */
+      .our-work .container {
+        padding-top: 72px;
+      }
       .hide-title {
         color: transparent;
       }
+
 
       .carts {
         margin-bottom: 94px;
