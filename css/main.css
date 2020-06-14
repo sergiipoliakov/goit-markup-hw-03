@@ -506,6 +506,9 @@
       }
 
     /* Portfolio filter */
+    .portfolio-header {
+      margin-bottom: 57px;
+    }
 
     .portfolio-filter  {
       display: flex;
@@ -537,9 +540,7 @@
       }
 
       /* Portfolio Cards */
-      .our-work .container {
-        padding-top: 72px;
-      }
+      
       .hide-title {
         color: transparent;
       }
